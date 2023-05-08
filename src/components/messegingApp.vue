@@ -43,7 +43,7 @@ const props = defineProps({
 const converationIndex = ref(0);
 
 const styleMesseges =
-  "w-full bg-gray-300 absolute min-h-[90vh] rounded p-10 duration-300 top-[-150%]";
+  "w-full bg-gray-300 absolute min-h-[90vh] rounded p-10 duration-300 top-0 left-[-150%]";
 
 const selectedMessege = ref(false);
 
