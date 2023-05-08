@@ -9,7 +9,7 @@ import messegingApp from "./components/messegingApp.vue";
 const converations = [
   {
     name: "Haider",
-    lastMessage: "Hello World",
+    lastMessage: "doing pretty well!",
     messeges: [
       { messege: "hello friend", outgoing: false },
       { messege: "Hey my friend!", outgoing: true },
@@ -19,7 +19,7 @@ const converations = [
   },
   {
     name: "Azez",
-    lastMessage: "Hello World",
+    lastMessage: "nothing much",
     messeges: [
       { messege: "hey my dear friend", outgoing: false },
       { messege: "Hey!", outgoing: true },
@@ -29,7 +29,7 @@ const converations = [
   },
   {
     name: "Muneer",
-    lastMessage: "Hello World",
+    lastMessage: "hell yah i did",
     messeges: [
       { messege: "wassup", outgoing: true },
       { messege: "wassup", outgoing: false },

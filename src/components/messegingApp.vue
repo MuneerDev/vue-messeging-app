@@ -8,9 +8,12 @@
         :key="index"
         @click="SelectConverstion(index)">
         <img :src="link + index" alt="person" class="rounded-full w-20 h-20" />
-        <p class="font-bold text-2xl">
-          {{ converation.name }}
-        </p>
+        <div class="font-bold text-2xl">
+          <p>{{ converation.name }}</p>
+          <p class="font-normal text-gray-500 text-lg">
+            {{ converation.lastMessage }}
+          </p>
+        </div>
       </li>
     </ul>
     <div :class="`${styleMesseges} ${dropDownNoActive}`">

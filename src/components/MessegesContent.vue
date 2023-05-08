@@ -12,7 +12,7 @@
 <script setup>
 import { defineProps } from "vue";
 
-const props = defineProps({
+defineProps({
   converations: {
     type: [Array],
     required: true,
@@ -22,5 +22,4 @@ const props = defineProps({
 const reciver = "bg-blue-500 rounded-lg w-fit px-5 py-3 received relative";
 const sender =
   "bg-green-500 rounded-lg w-fit px-5 py-3 sent relative justify-self-end";
-console.log(props.converations[0].messege);
 </script>
