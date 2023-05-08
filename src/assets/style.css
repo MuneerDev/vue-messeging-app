@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(30 27 75);
+}
+
+.dropDown {
+  top: 0;
+}
+
+.sent:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #22c55e;
+  position: absolute;
+  right: -10px;
+  bottom: 10px;
+}
+.received:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #3b82f6;
+  position: absolute;
+  left: -10px;
+  bottom: 10px;
+}
