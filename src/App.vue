@@ -37,7 +37,7 @@ const converations = [
     name: "Azez",
     lastMessage: "Perfect. I've been wanting to try that place out.",
     messeges: [
-      { messege: "hey my dear friend", outgoing: false },
+      { messege: "hey", outgoing: false },
       { messege: "Hey!", outgoing: true },
       { messege: "what you been up to", outgoing: true },
       { messege: "nothing much", outgoing: false },
@@ -94,8 +94,8 @@ const converations = [
     name: "Sara",
     lastMessage: "doing pretty well!",
     messeges: [
-      { messege: "hello friend", outgoing: false },
-      { messege: "Hey my friend!", outgoing: true },
+      { messege: "what are you up to", outgoing: false },
+      { messege: "nothing much", outgoing: true },
       { messege: "how are are doing", outgoing: false },
       { messege: "doing pretty well!", outgoing: true },
       { messege: "Want to catch up over coffee sometime?", outgoing: true },

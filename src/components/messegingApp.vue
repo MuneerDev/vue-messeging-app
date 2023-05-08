@@ -16,7 +16,7 @@
         </div>
       </li>
     </ul>
-    <div :class="`${styleMesseges} ${dropDownNoActive} overflow-y-auto`">
+    <div :class="`${styleMesseges} ${dropDownNoActive}`">
       <button
         @click="SelectConverstion"
         class="px-5 pt-3 pb-4 w-fit bg-indigo-500 rounded-lg text-white font-bold text-3xl">
@@ -43,7 +43,7 @@ const props = defineProps({
 const converationIndex = ref(0);
 
 const styleMesseges =
-  "w-full h-full bg-gray-300 absolute min-h-[90vh] rounded p-10 duration-300 top-[-150%]";
+  "w-full bg-gray-300 absolute min-h-[90vh] rounded p-10 duration-300 top-[-150%]";
 
 const selectedMessege = ref(false);
 
